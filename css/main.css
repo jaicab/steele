@@ -300,7 +300,7 @@ html {
 }
 
 body {
-    padding: 1em;
+    padding: 1em 2em;
     max-width: 75em;
     margin: 5vh auto;
     text-align: center;
