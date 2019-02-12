@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jaime Caballero -- Web developer -- @jaicab_
+    Joanne Fowler -- Graphic designer -- @jomfowler
+
+# THANKS
+
+    Olivia Taylor -- Asset production
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
