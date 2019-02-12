@@ -290,7 +290,7 @@ textarea {
 /* Custom code */
 html {
     background: #06102f url('../img/bg.jpg') center center no-repeat;
-    background-size: 120% auto;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -348,6 +348,9 @@ body img.large {
 
 
 @media all and (min-width: 64em) {
+    html {
+        background-size: 120% auto;
+    }
     body img {
         max-width: 40em;
     }
