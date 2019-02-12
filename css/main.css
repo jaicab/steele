@@ -289,30 +289,74 @@ textarea {
 
 /* Custom code */
 html {
-    background: #06102f url('../img/bg.png') center center no-repeat;
-    background-size: cover;
+    background: #06102f url('../img/bg.jpg') center center no-repeat;
+    background-size: 120% auto;
     background-attachment: fixed;
 }
 
 body {
     padding: 1em;
-    max-width: 640px;
+    max-width: 75em;
     margin: 5vh auto;
+    text-align: center;
 }
 
 body img {
-    max-width: 100%;
+    max-width: 40em;
     height: auto;
-    margin: 1em 0;
-    margin: 5vh 0;
+    margin: 1em auto;
+    margin: 5vh auto;
     box-shadow: 0 0 10vmin rgba(255, 255, 255, 0.3);
 }
 
-@media all and (min-width: 1000px) {
-    body img.large {
-        margin-left: -10em;
-        margin-right: -10em;
-        max-width: calc(640px + 20em);
+body img.large {
+    max-width: 100%;
+}
+
+.album {
+    position: relative;
+    text-align: center;
+}
+
+.album .button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 2em;
+    padding-top: 5em;
+}
+
+.album a {
+    display: inline-block;
+    text-align: center;
+    background: #55b560;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3em;
+    padding: 1em 2em;
+    width: 10em;
+    line-height: 1;
+    margin: auto auto;
+}
+
+
+
+@media all and (min-width: 64em) {
+    .sides {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sides img {
+        width: 48%;
+        height: 100%;
+        margin: 0;
     }
 }
 
