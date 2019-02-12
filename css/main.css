@@ -302,7 +302,7 @@ body {
 }
 
 body img {
-    max-width: 40em;
+    max-width: 100%;
     height: auto;
     margin: 1em auto;
     margin: 5vh auto;
@@ -348,6 +348,10 @@ body img.large {
 
 
 @media all and (min-width: 64em) {
+    body img {
+        max-width: 40em;
+    }
+
     .sides {
         display: flex;
         justify-content: space-between;
