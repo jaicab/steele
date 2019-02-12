@@ -288,6 +288,11 @@ textarea {
 
 
 /* Custom code */
+
+* {
+    box-sizing: border-box;
+}
+
 html {
     background: #06102f url('../img/bg.jpg') center center no-repeat;
     background-size: cover;
